@@ -7,7 +7,7 @@ BBin est un utilitaire Pastebin pour shell,  il permet d'envoyer l'entrée stand
 ```
 git clone https://github.com/bclerc/bbin
 cd bbin
-./bbin.sh -i
+sh bbin.sh -i
 ```
 
 ## Utilisation
@@ -22,7 +22,7 @@ cat file.txt | bbin -n 'Name of file'
 ![Recordit GIF](http://g.recordit.co/NYCLVFeMMr.gif)
 
 ### Clès API
->Il est possible d'ajouter vos clès api dans le fichier `config.yml` cependant ils ne sont pas obligatoire.
+>Il est possible d'ajouter vos clès api dans le fichier `config.yml` cependant ils ne sont pas obligatoire contrairement à la clef apikey.
 
 ```
 apikey=
