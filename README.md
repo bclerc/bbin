@@ -9,6 +9,11 @@ git clone https://github.com/bclerc/bbin
 cd bbin
 sh bbin.sh -i
 ```
+Une fois l'installation du programme terminé vous devez inscrire votre clef developpeur Pastebin dans le fichier `config.yml`
+>Vous trouverez votre clef api ici : https://pastebin.com/api
+```
+apikey=#Votre cles ici 
+```
 
 ## Utilisation
 
@@ -21,12 +26,12 @@ cat file.txt | bbin -n 'Name of file'
 
 ![Recordit GIF](http://g.recordit.co/NYCLVFeMMr.gif)
 
-### Clès API
->Il est possible d'ajouter vos clès api dans le fichier `config.yml` cependant ils ne sont pas obligatoire contrairement à la clef apikey.
+### Clès utilisateur API
+>Pour pouvoir faire des postes à votre nom et les rendres privés vous devez inscrire votre clef d'utilisateur dqns le fichier `config.yml'. Cependant elle n'est pas obligatoire pour les autres fonctions.
 
 ```
 apikey=
-userkey=
+userkey= #Votre cles ici 
 ```
 
 ### Les arguments
